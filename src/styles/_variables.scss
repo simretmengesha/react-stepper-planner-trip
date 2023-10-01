@@ -1,0 +1,29 @@
+// src/styles/_variables.scss
+
+// Primary Colours
+$primary-space-black: #001208;
+$primary-melon-pink: #FF4A7F;
+$primary-night-green: #16BD81;
+$primary-space-gray: #FCFCFC;
+
+//Secondary Colours
+$secondary-beach-teal: #048BA8;
+$secondary-day-blue: #52B6FF;
+$secondary-sun-yellow: #91ADFA;
+$secondary-full-white: #FFFFFF;
+
+// Shadows
+$shadow-light: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+$shadow-medium: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+$shadow-heavy: 0 8px 0 0 rgba(0, 0, 0, 0.2);
+$shadow-medium-pink: 0 4px 4px 4px #fdb5cb;
+
+// Borders
+$border-size: 2px;
+$border-radius: 20px;
+$border-light-grey: $border-size solid #DEDEDE;
+$border-melon-pink: $border-size solid $primary-melon-pink;
+
+// Font Stacks
+$font-stack: 'Helvetica, sans-serif';
+
