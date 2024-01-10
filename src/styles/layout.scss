@@ -1,0 +1,46 @@
+@import './_variables.scss';
+
+* {
+  font-family: $font-stack;
+  margin: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+.layout-header {
+  background: $primary-melon-pink;
+  color: $secondary-full-white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout-nav a {
+  color: $secondary-full-white;
+  text-decoration: none;
+}
+
+.layout-nav a:hover {
+  text-decoration: underline;
+}
+
+.layout-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.layout-footer {
+  background: $primary-melon-pink;
+  color: $secondary-full-white;
+  text-align: center;
+  padding: 1rem;
+}
+  

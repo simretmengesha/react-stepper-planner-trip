@@ -1,0 +1,25 @@
+@import './_variables.scss';
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    .btn {
+      padding: 0.5rem 1rem;
+      background: $primary-melon-pink;
+      color: $secondary-full-white;
+      border: none;
+      border-radius: $border-radius;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  
+    .btn:disabled {
+      display: none;
+    }
+  
+    .btn-finish {
+      background-color: $primary-night-green;
+    }
+  }

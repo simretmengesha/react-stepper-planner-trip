@@ -1,0 +1,19 @@
+@import './_variables.scss';
+
+.date-selector-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+  
+.date-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+    background: $primary-space-gray;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+}

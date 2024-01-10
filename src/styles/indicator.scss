@@ -1,0 +1,9 @@
+@import './_variables.scss';
+
+.indicator {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 500;
+    color: $primary-melon-pink;
+  }
