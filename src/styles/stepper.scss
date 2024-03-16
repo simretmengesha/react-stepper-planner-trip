@@ -1,0 +1,19 @@
+@import './_variables.scss';
+
+.stepper {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  border: $border-light-grey;
+  box-shadow: $shadow-heavy;
+  border-radius: $border-radius;
+  padding: 4rem;
+  width: 800px;
+  gap: 2rem;
+}
+
+.step-ctrl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

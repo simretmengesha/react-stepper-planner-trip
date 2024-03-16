@@ -1,0 +1,33 @@
+@import './_variables.scss';
+
+.weather-condition-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.weather-conditions-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.weather-conditions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background: $primary-space-gray;
+    border: $border-light-grey;
+    border-radius: $border-radius;
+}
+
+.current-weather {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+    color: $primary-melon-pink;
+}

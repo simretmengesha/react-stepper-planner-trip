@@ -1,0 +1,68 @@
+@import './_variables.scss';
+
+img {
+    width: 100%;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+    color: $secondary-full-white;
+    max-width: 100%;
+}
+
+.summary-title {
+    color: $primary-melon-pink;
+    font-size: 18px;
+}
+
+.summary-description {
+    color: $primary-space-black;
+    font-size: 16px;
+}
+
+.package-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+    color: $primary-space-black;
+}
+
+.package-name {
+    color: $primary-melon-pink;
+}
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+    color: $primary-space-black;
+}
+
+.destination {
+    padding: 2rem;
+    border-radius: $border-radius;
+    border: $border-melon-pink;
+    box-shadow: $shadow-medium-pink;
+    
+    h4 {
+        margin-bottom: 0.5rem;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 0.75rem;
+    }
+}
+
